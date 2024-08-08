@@ -44,7 +44,7 @@
 }
 
 body {
-   background: url("/registration/images/bgimg.jpeg") no-repeat center center fixed; 
+   background: url("/images/bgimg.jpeg") no-repeat center center fixed; 
    background-size: 50px;
   background-color: black;
   height: 100vh; 
@@ -218,7 +218,7 @@ body {
 	user-select: none;
 }
 #imgcont {
-  background: url("/assets/images/about/old.jpg") no-repeat;
+  background: url("/images/about/old.jpg") no-repeat;
   margin-top: 60px;
   margin-left: 230px;
   width: 300px;
