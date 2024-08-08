@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Develop the Coder Within</title>
+  <link rel="shortcut icon" type="image/icon" href="/assets/logo/favicon.png" />
+  <link rel="stylesheet" href="registration.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "tgWVTLBJ-m6Hhsdji",
+      });
+    })();
+  </script>
+
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader" class="loader">
+  </div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="heading">
+      <h1>CodeCraft*</h1>
+      <h2>Thank You for Showing Interest in CodeCraft*</h2>
+    </div>
+    <div>
+      <div class="container2">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <span class="text">Scroll down</span>
+      </div>
+      <div id="container1">
+        <span id="text1"></span>
+        <span id="text2"></span>
+      </div>
+
+
+      <svg id="filters">
+        <defs>
+          <filter id="threshold">
+
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 255 -140" />
+          </filter>
+        </defs>
+      </svg>
+      <div id="container">
+        <div class="steam" id="steam1"> </div>
+        <div class="steam" id="steam2"> </div>
+        <div class="steam" id="steam3"> </div>
+        <div class="steam" id="steam4"> </div>
+
+        <div id="cup">
+          <div id="cup-body">
+            <div id="cup-shade"></div>
+          </div>
+          <div id="cup-handle"></div>
+        </div>
+
+        <div id="saucer"></div>
+
+        <div id="shadow"></div>
+      </div>
+      <div id="form-container-wrapper">
+        <div id="imgcont" class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <!-- Front content here -->
+            </div>
+            <div class="back">
+              <div class="hidden-content" style="font-family: cursive;color: black;">
+                <h6>Name: Sujit Milind Patil</h6>
+                <h6>Phone: +919922744881</h6>
+                <h6>Email ID: sujitpatil0017@gmail.com</h6>
+                <h6>Birth Date: 17-05-1998</h6>
+                <h6>Current Location: Pune</h6>
+                <h6>Can Relocate as per business</h6>
+                <h6>requirements.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="imgcont2" class="flip-container">
+          <div class="flipper">
+            <div class="front1">
+              <!-- Front content here -->
+            </div>
+            <div class="back">
+              <div class="hidden-content">
+                <h2 style="font-family: 'Dancing Script', cursive; color: plum;">"Innovation </h2>
+                <h3 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: orange; text-shadow: 
+                0 0 10px #f5a623,  /* smaller shadow for the inner glow - orange */
+                0 0 20px #f5a623,  /* medium shadow for the outer glow - orange */
+                0 0 30px #f5a623,  /* larger shadow for an extended glow - orange */
+                0 0 40px #f5a623,  /* even larger shadow for a more extended glow - orange */
+                0 0 50px #f5a623,  /* largest shadow for the most extended glow - orange */
+                0 0 60px #f5a623,  /* largest shadow for the most extended glow - orange */
+                0 0 70px #ac5ef1;  /* outermost shadow - purple for a gradient effect */            
+            ">through code, </h3>
+                <h2 style="font-family: 'Dancing Script', cursive; color: plum;">Excellence </h2>
+                <h3 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: orange; text-shadow: 
+                0 0 10px #f5a623,  /* smaller shadow for the inner glow - orange */
+                0 0 20px #f5a623,  /* medium shadow for the outer glow - orange */
+                0 0 30px #f5a623,  /* larger shadow for an extended glow - orange */
+                0 0 40px #f5a623,  /* even larger shadow for a more extended glow - orange */
+                0 0 50px #f5a623,  /* largest shadow for the most extended glow - orange */
+                0 0 60px #f5a623,  /* largest shadow for the most extended glow - orange */
+                0 0 70px #ac5ef1;  /* outermost shadow - purple for a gradient effect */
+            ">through craft."</h3>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="form-container">
+          <h2 style="color: black; font-family: monospace;">Enter Details to Explore My Professional Showcase</h2>
+          <form id="access-form">
+            <label for="email" style="color: black;">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="organisation" style="color: black;">Organisation Name:</label>
+            <input type="text" id="organisation" name="organisation" required style="color: black;">
+
+            <label for="role" style="color: black;">Role:</label>
+            <select id="role" name="role" required style="color: black;">
+              <option value="" style="color: black;">Select Role</option>
+              <option value="recruiter" style="color: black;">Recruiter</option>
+              <option value="fresher" style="color: black;">Software Programmer Fresher</option>
+              <option value="other" style="color: black;">Other</option>
+            </select>
+            <button type="submit" class="bubbly-button">Submit</button>
+            <!-- onclick="validateAccess()" -->
+          </form>
+          <div class="mt-6 btn-list">
+            <a href="https://www.facebook.com/profile.php?id=100006885859198" target="_blank">
+              <button type="button" class="socila-btn btn btn-icon btn-facebook fb-color"><i
+                  class="fab fa-facebook-f faa-ring animated"></i></button> </a>
+            <a href="https://www.linkedin.com/in/sujit-patil-5427a2234/" target="_blank">
+              <button type="button" class="socila-btn btn btn-icon btn-google incolor"><i
+                  class="fab fa-linkedin-in faa-flash animated"></i></button> </a>
+            <a href="https://www.instagram.com/sujit_6044/" target="_blank">
+              <button type="button" class="socila-btn btn btn-icon btn-dribbble driblecolor"><i
+                  class="fab fa-instagram faa-pulse animated""></i></button> </a>
+          </div>
+          <div id=" message">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      var myVar;
+
+      function myFunction() {
+        myVar = setTimeout(showPage, 3000);
+      }
+
+      function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+    </script>
+    <script src="registration.js"></script>
+</body>
+
+</html>
