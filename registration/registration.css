@@ -235,7 +235,7 @@ body {
   transition: transform 1.5s ease-in-out, box-shadow 1.5s ease-in-out;
 }
 #imgcont2 {
-  background: url("/assets/images/about/onemore.jpg") no-repeat;
+  background: url("/images/about/onemore.jpg") no-repeat;
   margin-top: 60px;
   margin-left: 700px;
   width: 300px;
