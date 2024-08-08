@@ -44,7 +44,7 @@
 }
 
 body {
-   background: url("/images/bgimg.jpeg") no-repeat center center fixed; 
+   background: url("images/bgimg.jpeg") no-repeat center center fixed; 
    background-size: 50px;
   background-color: black;
   height: 100vh; 
